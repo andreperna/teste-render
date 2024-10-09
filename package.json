@@ -1,0 +1,18 @@
+{
+  "name": "teste-gdrive",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/gAuth/gAuth.js",
+    "start-env": "node --env-file=.env src/gAuth/gAuth.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "googleapis": "^144.0.0"
+  }
+}
